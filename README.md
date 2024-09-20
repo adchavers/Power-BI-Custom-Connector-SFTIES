@@ -18,19 +18,19 @@
 </ol>
 
 
-A.	Prerequisites
+<h3>A.	Prerequisites</h3>
 
 Before you start, ensure you have the following installed:
 
-A.	Using the Connector (in Power BI Desktop)
+<h4>A.	Using the Connector (in Power BI Desktop)</h4>
 
 -	Power BI Desktop (latest version)
 
-B.	Modifying the Connector’s Code
+<h4>B.	Modifying the Connector’s Code</h4>
 
 -	Visual Studio Code
 -	Power Query SDK for Visual Studio and Extensions for Visual Studio Code
-B.	Adding the Connector to Power BI
+<h3>B.	Adding the Connector to Power BI</h3>
 Custom Connectors are deployed using a .mez file.
 1.	Obtain the .mez file, which can be found in the “bin\AnyCPU\Debug” project folder
 
@@ -52,7 +52,7 @@ C:\users\<<username>>\Document\Microsoft Power BI Connector
 -	Enable "Allow any extension to load without validation or warning" under ‘Data’
 
 6.	Click ‘OK’ and Restart Power BI Desktop
-C.	Using the Custom Connector
+<h3>C.	Using the Custom Connector</h3>
 Using the Custom Connector is a similar process to using any other Power BI Connector, such as SQL Server or Excel file.
 1.	Once the Custom Connector has been added and enabled in Power BI according to Section B, open Power BI Desktop.
 
@@ -76,7 +76,7 @@ Using the Custom Connector is a similar process to using any other Power BI Conn
 
 10.	The endpoint(s) selected will appear in the Data tab and can be used just like any other data source to create visuals, reports, etc.
 
-D.	Modifying the Connector
+<h3>D.	Modifying the Connector</h3>
 1.	Open Visual Studio
 
 2.	Ensure the Power Query SDK extension has been installed
@@ -105,7 +105,7 @@ https://learn.microsoft.com/en-us/power-query/samples/trippin/readme
 -	Press Ctrl+Shift+B or select ‘Tasks: Run Build Task’
 -	Select ‘build: Build connector project using MakePQX’
 This will generate a .mez file in the ‘bin\AnyCPU\Debug’ folder.
-E.	Troubleshooting- 
+<h3>E.	Troubleshooting</h3>
 Below are some common issues with Custom Connectors and how to resolve them:
 1.	Connector Not Appearing in Power BI
 -	Ensure that the .mez file is placed in the correct directory.

@@ -1,13 +1,21 @@
 DW-SFTIES
 Power BI Custom Connector
+
 Table of Contents
 A.	Prerequisites
+
 B.	Capabilities Supported
+
 C.	Adding the Connector to Power BI
+
 D.	Using the Connector
+
 E.	Modifying the Connector
+
 F.	Troubleshooting
+
 A.	Prerequisites
+
 Before you start, ensure you have the following installed:
 
 A.	Using the Connector (in Power BI Desktop)

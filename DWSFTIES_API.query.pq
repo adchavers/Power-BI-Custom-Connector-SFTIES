@@ -1,5 +1,6 @@
 let
-    Source = DWSFTIES_API.Contents("AL", "Inventory"),
-    data = Source{[Name="inventory/water-system"]}[Data]
+    Source = DWSFTIES_API.Contents("AL", "PostgREST")
+    //, data = Source{[Name="dwp_legal_entity"]}[Data]
 in
-    data
+    Source
+    //data

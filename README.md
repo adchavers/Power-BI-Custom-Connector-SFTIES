@@ -1,18 +1,22 @@
-DW-SFTIES
-Power BI Custom Connector
+<h1>DW-SFTIES</h1>
+<h2>Power BI Custom Connector</h2>
 
-Table of Contents
-A.	Prerequisites
+<h2>Table of Contents</h2>
+<ol>
+<li>A.	Prerequisites</li>
 
-B.	Capabilities Supported
+<li>B.	Capabilities Supported</li>
 
-C.	Adding the Connector to Power BI
+<li>C.	Adding the Connector to Power BI</li>
 
-D.	Using the Connector
+<li>D.	Using the Connector</li>
 
-E.	Modifying the Connector
+<li>E.	Modifying the Connector</li>
 
-F.	Troubleshooting
+<li>F.	Troubleshooting
+ 
+</ol>
+
 
 A.	Prerequisites
 

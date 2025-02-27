@@ -32,6 +32,7 @@ Before you start, ensure you have the following installed:
 -	Power Query SDK for Visual Studio and Extensions for Visual Studio Code
 <h3>B.	Adding the Connector to Power BI</h3>
 Custom Connectors are deployed using a .mez file.
+
 1.	Obtain the .mez file, which can be found in the “bin\AnyCPU\Debug” project folder
 
 2.	Copy the .mez file to the Custom Connectors folder:
